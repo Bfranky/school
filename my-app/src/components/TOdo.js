@@ -1,10 +1,12 @@
 import React, {useState} from 'react'
 import TOdolist from './TOdolist'
+import {RiCloseCircleline} from 'react-icons'
+import {TiEdit} from 'react-icons'
 
-function TOdo() {
+ function TOdo({todos, completeTodo, removeTodo} ) {
     const [edit, setEdit] = useState({
         id: null,
-        value: ''
+        value: ('')
     });
   return  TOdolist.map((edit, index) =>{
     <div className={TOdo.isComplete? 'todo-row complete':
@@ -15,10 +17,14 @@ function TOdo() {
                 {todo.text}
             </div>
             <div className='icons'>
-                dispatchEvent (setEdit, useState);
+            <RiCloseCircleline
+            onClick={()=> removeTodo(todo.id)}
+            className='delete-icon'
+            />
+             <TiEdit onClick={()=> setEdit ({id: todo.id, value: todo.text})}
+            className='edit-icon'
+            />
             </div>
-
-
         </div>
   });
 }

@@ -1,0 +1,248 @@
+:root{
+    --primary-color:blue;
+    --secondary-color:#ffefd159;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.fill h1, p{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+p{
+    margin-top: 20px;
+}
+.form-field label{
+    padding-right: 4px;
+    margin-right: auto;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+hr{
+    border: 1px solid chocolate;
+    margin-bottom: 25px;
+}
+.form-field{
+    position: relative;
+  }
+  input[type=text]{
+    position: relative; 
+    width: 40%;
+    padding: 3px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #d4caca;
+    left: 113px; 
+  }
+  input[type=text]:focus{
+    background-color: #dbdbdb;
+    outline: none;
+  }
+.form-field h2{
+    font-size: 15px;
+}
+.date-1{
+    position: relative;
+    top: -20px;
+    left: 20px;
+    display: flex;
+
+}
+ .form-field select[name=date]{
+    position: relative;
+    left: 120px;
+    width: 100px;
+    margin: 0px 0px 15px 0px;
+    padding: 3px;
+    border: none;
+    box-shadow: 3px 2px 5px 3px #0000004d;
+}
+select[name=month]{
+    position: absolute;
+    left: 215px;
+    top: -0px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+    /* margin: 5px 0 22px 0; */
+    padding: 3px;
+    border: none;
+    box-shadow: 0 5px 10px #0000004d;
+}
+input[class=text]{
+    position: absolute;
+    top: -0px;
+    width: 100px;
+    left: 300px;
+    margin-left: 20px;
+    padding: 3px;
+    border: none;
+    box-shadow: 0 5px 10px #0000004d;
+}
+input[class=text]:focus{
+    background-color: #fdfdfd;
+    outline: none;
+  }
+  select[name=month]:focus, select[name=date]:focus{
+    outline: none;
+  }
+ .day{
+    position: absolute;
+    top: 25px;
+    left: 150px;
+}
+.month{
+    position: absolute;
+    top: 25px;
+    left: 250px; 
+}
+.year{
+    position: absolute;
+    top: 25px;
+    left: 350px;  
+}
+select[name=Gender]{
+    width: 40%;
+    position: relative;
+    left: 112px;
+    top: -5px;
+    margin-left: 20px;
+    padding: 3px;
+    border: none;
+    background: #d4caca;
+}
+select[name=Gender]:focus{
+    outline: none;
+    background: #f3f3f3;
+  }
+  select[name=code]{
+    padding-left: 5px;
+    margin-left: 24px;
+    position: relative;
+    left: 40px;
+    border: none;
+    background: #cccbcb;
+    padding: 3px;
+  }
+
+select:focus{
+    background: #d4caca;
+    outline: none;
+}
+input[name=phone]{
+    left: 50px;
+} 
+.phone-1{
+    position: relative;
+    left: 250px;
+    top: -20px;
+}
+input[name=streetaddress]{
+    position: relative;
+    top: -40px;
+    left: 150px;
+    width: 200px;
+    padding: 9px;
+ }
+ .street-1, .street-3, .street-5{
+    position: relative;
+    left: 150px;
+    top: 18px;
+ }
+ .street-2{
+    position: relative;
+    left: 360px;
+    top: -60px;
+ }
+ .street-4{
+    position: relative;
+    top: -60px;
+    left: 360px;
+ }
+ input[name=streetLine]{
+    position: absolute;
+    top: -1.5px;
+    left: 355px;
+    width: 200px;
+    padding: 9px;
+
+ }
+ input[name=city]{
+    top: -45px;
+    width: 200px;
+    padding: 9px;
+    left: 149px;
+ }
+input[name=state]{
+    position: absolute;
+    top: 89px;
+    width: 200px;
+    padding: 9px;
+    left: 354px;
+}
+input[name=zip]{
+    top: -40px;
+    left: 150px;
+    padding: 9px;
+    width: 53%;
+}
+
+/* .fill{
+    padding: 1em;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px #0000004d;
+    width: 800px;
+    background: rgb(0, 0, 0, 6);
+    margin: auto;
+}
+
+
+.fill p{
+    font-size: 20px;
+}
+
+.certificate{
+    padding: 10px 20px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+} */
+ 
+  /* .code{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 95px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #fff9f9;
+}
+.number{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 360px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #fffefe;
+} */
