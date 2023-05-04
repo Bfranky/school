@@ -1,0 +1,137 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(255, 254, 254);
+}
+.header{
+    background: bisque;
+    height: 100px;
+    display: flex;
+    padding: 2px 25px;
+    margin: 4px 5px;
+    position: relative;
+    line-height: 30px;
+    align-items: center;
+}
+.header .logo .logo1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    font-weight: 900;
+}
+sup{
+   font-size: 15px; 
+   font-weight: 200;
+}
+.header-1{
+    margin: 0 auto;
+}
+.header-1 li{
+    display: inline-block;
+    margin: 4px 35px;
+    text-transform: capitalize;
+    font-size: 19px;
+
+}
+.header-1 li:first-child{
+    border-bottom: 3px solid blueviolet;
+}
+.sign-btn{
+    display:flex;
+    position: relative;
+}
+ .btn, .btn-1{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid blueviolet;
+    padding: 10px 18px;
+    font-size: 11px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.btn{
+    border-bottom: 4px solid blueviolet;
+    color: black;
+} 
+.btn-1{
+    background: blueviolet;
+    border-bottom: 4px solid black;
+    
+}
+.btn:hover, .btn-1:hover{
+    box-shadow: 0px 0px 10px 0px rgb(48, 37, 23);
+}
+/* body */
+
+.main{
+    display: flex;
+    height: 35em;
+    background: transparent;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pro{
+    margin-left: 30px;
+    font-size: 35px;
+}
+.pro-1 .pro-1-1{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.dep{
+    height: 10px;
+    width: 300px;
+    background: blueviolet;
+    border-radius: 0 0 50px 0;
+    position: relative;
+}
+.btn-2{
+    position: relative;
+    display:inline-flex;
+    margin-top: 20px;
+}
+.btn-2 .btn-3, .btn-4{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid blueviolet;
+    padding: 10px 18px;
+    font-size: 21px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.fa-play{
+        color: blueviolet;
+}
+.btn-3:hover, .btn-4:hover{
+    background: rgba(137, 43, 226, 0.164);
+    border-bottom: 4px solid blueviolet;
+}
+.img{
+    margin: 4px;
+    padding-left: 20px;
+}
+.footer .foot{
+    height: 8.5em;
+    background: #e5e2e2;
+    margin: 4px 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .foot{
+    margin: 0 auto;
+} */
